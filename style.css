@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.container{
+  border-radius: 2%;
+  padding: 5%;
+  text-align: center;
+  color: #00FF00;
+  margin: auto;
+  width:900px;
+	height:600px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.interno{
+  margin:50px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+header>div{
+  font-style: normal;
+  font-size: 30px;
+}
+
+nav{
+  margin-top: 1px;
+}
+
+.row{
+  padding-top: 10px;
+  height: 30px;
+  background-color: #00FF00;
+}
+
+main{
+color: white;
+text-align: left;
+
+}
+.carica-orange{
+  width: 80px;
+  background-color: orange;
+
+
+}
+.carica-green{
+  width: 200px;
+  background-color: green;
+
+
+}
+.carica-red{
+  width: 50px;
+  background-color: red;
+
+
+}
+main > span {
+  font-size: 25px;
+  font-family:'Outfit';
+}
+
+main div {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+div[class*="carica"]{
+  border-radius: 5px;
+  height: 20px;
+
+}
